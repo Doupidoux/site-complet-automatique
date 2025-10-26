@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Complet Automatique - Contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Site Complet</div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Contactez-Nous</h1>
+                <p>Nous sommes à votre écoute pour réaliser vos projets</p>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <div style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+                <h2 style="text-align: center; margin-bottom: 3rem;">Envoyez-nous un Message</h2>
+                
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: start;">
+                    <div>
+                        <form class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nom complet *</label>
+                                <input type="text" id="name" name="name" required placeholder="Votre nom">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="votre@email.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="phone">Téléphone</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+33 6 12 34 56 78">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Sujet *</label>
+                                <input type="text" id="subject" name="subject" required placeholder="Objet de votre message">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" required placeholder="Décrivez votre projet ou votre demande..."></textarea>
+                            </div>
+                            
+                            <button type="submit" class="submit-btn">Envoyer le Message</button>
+                        </form>
+                    </div>
+                    
+                    <div>
+                        <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin-bottom: 2rem;">
+                            <h3 style="color: #667eea; margin-bottom: 1.5rem;">Coordonnées</h3>
+                            
+                            <div style="margin-bottom: 1.5rem;">
+                                <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1rem;">
+                                    <span style="font-size: 1.5rem;">📧</span>
+                                    <div>
+                                        <strong>Email</strong><br>
+                                        <a href="mailto:contact@sitecomplet.com" style="color: #667eea; text-decoration: none;">contact@sitecomplet.com</a>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; align-items: start; gap: 1rem; margin-bottom: 1rem;">
+                                    <span style="font-size: 1.5rem;">📞</span>
+                                    <div>
+                                        <strong>Téléphone</strong><br>
+                                        <a href="tel:+33123456789" style="color: #667eea; text-decoration: none;">+33 1 23 45 67 89</a>
+                                    </div>
+                                </div>
+                                
+                                <div style="display: flex; align-items: start; gap: 1rem;">
+                                    <span style="font-size: 1.5rem;">📍</span>
+                                    <div>
+                                        <strong>Adresse</strong><br>
+                                        123 Rue du Développement<br>
+                                        75001 Paris, France
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+                            <h3 style="color: #667eea; margin-bottom: 1.5rem;">Horaires d'Ouverture</h3>
+                            <div style="display: flex; flex-direction: column; gap: 0.8rem;">
+                                <div style="display: flex; justify-content: space-between;">
+                                    <span><strong>Lundi - Vendredi</strong></span>
+                                    <span>9h00 - 18h00</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <span><strong>Samedi</strong></span>
+                                    <span>10h00 - 16h00</span>
+                                </div>
+                                <div style="display: flex; justify-content: space-between;">
+                                    <span><strong>Dimanche</strong></span>
+                                    <span>Fermé</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 2rem; border-radius: 10px; margin-top: 2rem; text-align: center;">
+                            <h3 style="margin-bottom: 1rem;">Besoin d'un Devis ?</h3>
+                            <p style="margin-bottom: 1.5rem;">Réponse sous 24h pour toute demande de devis</p>
+                            <div style="font-size: 2rem;">⏱️</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-preview" style="margin-top: 4rem;">
+                    <h2>Questions Fréquentes</h2>
+                    <div style="text-align: left; max-width: 800px; margin: 2rem auto;">
+                        <div style="margin-bottom: 1.5rem;">
+                            <h3 style="color: #667eea; font-size: 1.2rem;">Quels sont vos tarifs ?</h3>
+                            <p>Nos tarifs varient selon la complexité et l'étendue de votre projet. Contactez-nous pour un devis personnalisé gratuit.</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h3 style="color: #667eea; font-size: 1.2rem;">Quel est le délai de réalisation ?</h3>
+                            <p>Le délai dépend de la taille du projet. Un site vitrine simple peut être livré en 2-3 semaines, tandis qu'un site e-commerce complexe peut prendre 2-3 mois.</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h3 style="color: #667eea; font-size: 1.2rem;">Proposez-vous de la maintenance ?</h3>
+                            <p>Oui, nous offrons des contrats de maintenance pour assurer la sécurité, les mises à jour et le bon fonctionnement de votre site.</p>
+                        </div>
+                        <div style="margin-bottom: 1.5rem;">
+                            <h3 style="color: #667eea; font-size: 1.2rem;">Travaillez-vous avec des clients internationaux ?</h3>
+                            <p>Absolument ! Nous travaillons avec des clients partout dans le monde et offrons nos services en français et en anglais.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Site Complet</h3>
+                <p>Votre partenaire digital de confiance</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens rapides</h3>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="about.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: contact@sitecomplet.com</p>
+                <p>Tél: +33 1 23 45 67 89</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Site Complet Automatique. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
